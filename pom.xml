@@ -10,35 +10,35 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>4.3.7.RELEASE</version>
+			<version>5.2.3.RELEASE</version>
 			<type>jar</type>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>4.3.7.RELEASE</version>
+			<version>5.2.3.RELEASE</version>
 			<type>jar</type>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-beans</artifactId>
-			<version>4.3.7.RELEASE</version>
+			<version>5.2.3.RELEASE</version>
 			<type>jar</type>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>4.3.7.RELEASE</version>
+			<version>5.2.3.RELEASE</version>
 			<type>jar</type>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
-			<version>4.3.7.RELEASE</version>
+			<version>5.2.3.RELEASE</version>
 			<type>jar</type>
 		</dependency>
 		<!-- Junit测试所需的包 -->
@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<version>4.3.7.RELEASE</version>
+			<version>5.2.3.RELEASE</version>
 			<scope>test</scope>
 		</dependency>
 		<!-- aspect所需的包 -->
@@ -87,7 +87,7 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
-			<version>4.3.7.RELEASE</version>
+			<version>5.2.3.RELEASE</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
