@@ -10,7 +10,7 @@ public class BinarySearch {
         int[] nums = {1, 2, 3, 4, 5, 6, 7};
         int target = 5;
         //int index = Arrays.binarySearch(nums, target);
-        int index = search_1(nums, target);
+        int index = search_recursion(nums, target, 0, nums.length - 1);
         System.out.println(index);
     }
 
@@ -65,5 +65,28 @@ public class BinarySearch {
             return left;
         }
         return -1;
+    }
+
+    /**
+     * 递归二分搜索
+     *
+     * @param nums
+     * @param target
+     * @param left
+     * @param right
+     * @return
+     */
+    public static int search_recursion(int[] nums, int target, int left, int right) {
+        if (left > right) {
+            return -1;
+        }
+        int mid = left + (right + 1 - left) / 2;
+        if (nums[mid] == target) {
+            return mid;
+        } else if (nums[mid] > target) {
+            return search_recursion(nums, target, left, mid - 1);
+        } else {
+            return search_recursion(nums, target, mid + 1, right);
+        }
     }
 }
